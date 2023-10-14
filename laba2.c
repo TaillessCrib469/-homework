@@ -8,7 +8,7 @@ double min(double a, double b){
 	if(a<b){return a;}
 	else{return b;}
 }
-void main(){
+int main(){
 	double x=0.0;
 	double y=1.0;
 	double hy=0.4;
@@ -27,4 +27,5 @@ void main(){
 		}
         y=1.0;
 	}
+	return 0;
 }
