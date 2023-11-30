@@ -92,9 +92,7 @@ void search(journal *arr, int n){
 			printf("Скажи мне число просмотров, родной: \n");
 			scanf("%d",&count);
 			for(int i=0;i<n;i++){
-				printf("pidor");
 				if(arr[i].views==count){
-					printf("fuck");
 					printf("%s %s %d\n", arr[i].name,arr[i].author, arr[i].views);
 					flag=0;
 				}
